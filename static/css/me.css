@@ -1,3 +1,7 @@
+body{
+    background: url("../img/bg.png");
+}
+
 .m-padded-mini{
     padding-top: 0.2em !important;
     padding-bottom: 0.2em !important;
@@ -52,6 +56,11 @@
     margin: auto !important;
 }
 
+.m-container-small{
+    max-width: 60em !important;
+    margin: auto !important;
+}
+
 /*----margin----*/
 .m-margin-tb-tiny{
     margin-top: 0.3em!important;
@@ -72,6 +81,10 @@
 
 .m-margin-top-large{
     margin-top: 3em!important;
+}
+
+.m-margin-bottom-small{
+    margin-bottom: 0.5em!important;
 }
 
 
@@ -105,5 +118,9 @@
 
     .m-mobile-show{
         display: block !important;
+    }
+
+    .m-mobile-wide{
+        width: 100%!important;
     }
 }
