@@ -1,6 +1,30 @@
+.m-padded-mini{
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+}
+
 .m-padded-tb-mini{
     padding-top: 0.2em !important;
     padding-bottom: 0.2em !important;
+}
+.m-padded-tiny{
+    padding-top: 0.5em !important;
+    padding-bottom: 0.5em !important;
+}
+
+.m-padded-tb{
+    padding-top: 2em !important;
+    padding-bottom: 2em !important;
+}
+
+.m-padded-tb-large{
+    padding-top: 3em !important;
+    padding-bottom: 3em !important;
+}
+
+.m-padded-tb-huge{
+    padding-top: 4em !important;
+    padding-bottom: 4em !important;
 }
 
 .m-padded-tb-max{
@@ -21,4 +45,65 @@
 
 .m-opacity-mini{
     opacity:0.8 !important;
+}
+/*-------container--------*/
+.m-container{
+    max-width: 72em !important;
+    margin: auto !important;
+}
+
+/*----margin----*/
+.m-margin-tb-tiny{
+    margin-top: 0.3em!important;
+    margin-bottom: 0.3em!important;
+}
+
+.m-margin-tb-large{
+    margin-top: 5em!important;
+    margin-bottom: 5em!important;
+}
+
+.m-margin-top-small{
+    margin-top: 0.5em!important;
+}
+.m-margin-top{
+    margin-top: 2em!important;
+}
+
+.m-margin-top-large{
+    margin-top: 3em!important;
+}
+
+
+/*----display---*/
+.m-display-inline-block{
+    display: inline-block !important;
+}
+
+
+/*----color---*/
+.m-color-black{
+    color: #333!important;
+}
+
+/*----position----*/
+.m-position-absolute-rt{
+    position: absolute;
+    right:0;
+    top: 0;
+}
+
+.m-mobile-show{
+    display: none !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    .m-mobile-hide{
+        display: none !important;
+    }
+
+    .m-mobile-show{
+        display: block !important;
+    }
 }
