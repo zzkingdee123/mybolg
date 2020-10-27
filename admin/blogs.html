@@ -37,6 +37,12 @@
         <i class="sidebar icon "></i>
     </button>
 </nav>
+<div class="ui attached pointing  menu">
+    <div class="ui container">
+        <a href="" class="item right floated">发布</a>
+        <a href="" class="active teal item">列表</a>
+    </div>
+</div>
 
 <!--    中间内容-->
 <div class="m-container m-padded-tb-large">
@@ -64,7 +70,7 @@
                     </div>
                 </div>
                 <div class="field">
-                    <button class="ui button teal mini basic"><i class="ui icon search"></i>搜索</button>
+                    <button class="ui button teal mini "><i class="ui icon search"></i>搜索</button>
                 </div>
             </div>
         </div>
@@ -82,21 +88,43 @@
             </thead>
             <tbody>
             <tr>
-                <td data-label="Name">James</td>
-                <td data-label="Age">24</td>
-                <td data-label="Job">Engineer</td>
+                <td>1</td>
+                <td>刻意学习</td>
+                <td >学习方法</td>
+                <td >是</td>
+                <td >2020-10-27 20：32</td>
+                <td>
+                    <button class="ui button basic mini teal">修改</button>
+                    <button class="ui button basic mini red">删除</button>
+                </td>
             </tr>
             <tr>
-                <td data-label="Name">Jill</td>
-                <td data-label="Age">26</td>
-                <td data-label="Job">Engineer</td>
-            </tr>
-            <tr>
-                <td data-label="Name">Elyse</td>
-                <td data-label="Age">24</td>
-                <td data-label="Job">Designer</td>
+                <td>1</td>
+                <td>刻意学习</td>
+                <td >学习方法</td>
+                <td >是</td>
+                <td >2020-10-27 20：32</td>
+                <td>
+                    <button class="ui button basic mini teal">修改</button>
+                    <button class="ui button basic mini red">删除</button>
+                </td>
             </tr>
             </tbody>
+            <tfoot>
+            <tr>
+                <th colspan="6">
+                    <div class="ui mini  pagination menu">
+                        <a class="icon  item">
+                            上一页
+                        </a>
+                        <a class="icon  item">
+                            下一页
+                        </a>
+                    </div>
+                         <a class="ui button right floated item  basic teal mini">新增</a>
+                </th>
+            </tr>
+            </tfoot>
         </table>
     </div>
 </div>
